@@ -1,0 +1,129 @@
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+.container{
+ top:0;
+ left: 0;
+ right:0;
+ position: sticky;
+}
+ header{
+  
+  border: 5px inset;
+  background-color: rgb(235, 172, 205);
+  background-image: url('../images/bg2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+  
+ }
+
+ h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h6{
+ padding-top: 20px;
+ color: rgb(237, 225, 225);
+ text-shadow: 1px 1px 2px rgb(32, 11, 71);
+ font-family:sans-serif;
+ letter-spacing: 1px;
+}
+
+nav{
+ border: 2px hidden blue;
+ background-color: white;
+ }
+
+ul{
+ text-align: center;
+}
+
+li{
+ display:inline-block;
+ line-height: 1.8em;
+ width: 200px;
+ font-family: serif;
+ font-size: 1.8em;
+ font-style: oblique;
+}
+
+nav>ul>li>a{
+ color: rgb(244, 71, 71);
+ text-decoration: none;
+ text-shadow: 2px 2px 5px red;
+}
+nav>ul>li>a:hover, a:active{
+ color:rgb(12, 101, 12);
+ text-shadow: 2px 2px 5px rgb(7, 142, 18);
+}
+
+main{
+ display:flex;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+main>div{
+ flex: 1;
+ border: 2px hidden rgb(238, 238, 227);
+ margin-left: 20px;
+ 
+}
+
+main>div>p{
+ display: block;
+ margin-top: 1em;
+ margin-bottom: 1em;
+ margin-left: 2em;
+ margin-right: 1em;
+ text-indent: 50px;
+ line-height: 1.5;
+ letter-spacing: 0.6px;
+ text-align: justify;
+ font-size: 25px;
+ font-family: Arial, Helvetica, sans-serif;
+ color: rgb(96, 96, 214);
+
+ padding: 10px;
+  background-color: rgb(62, 235, 232);
+  box-shadow: 10px 10px 5px;
+  border-radius: 25px;
+}
+aside{
+ 
+ padding-left: 20px;
+ margin-right: 20px;
+}
+
+footer{
+ display: flex;
+  justify-content: space-between;
+  border: 2px inset rgb(191, 191, 211);
+  padding: 8px;
+  background-image: radial-gradient(rgb(181, 13, 200),rgb(101, 239, 207));
+}
+
+.creat, .contact, .social{
+ width: 30%;
+}
+.creat{
+ margin-left: 2em;
+}
+.contact{
+ font-size: 1.2em;
+}
+.social a{
+ font-size: 2.5em;
+
+}
+
+.social p{
+ font-size: 1.2em;
+}
